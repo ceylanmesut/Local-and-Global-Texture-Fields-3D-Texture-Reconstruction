@@ -1,0 +1,14 @@
+method: texnet
+inherit_from: configs/singleview/texfields/car.yaml
+data:
+  # path_shapes: data/synthetic_combined/02958343
+  dataset_imgs_type: image_folder
+  img_size: 256
+generation:
+  batch_size: 1
+test:
+  model_file: /srv/beegfs02/scratch/texture/data/single_view_3d_w_texture/3rdparty/texture_fields/models/trained/model_best.pt # PUT PATH TO TRAINED MODEL LATER!
+  vis_dir: 'out/singleview/car_trained_our_model/eval_fix'
+  dataset_split: 'test_vis' 
+  with_occnet: False
+  generation_mode: 'HD'

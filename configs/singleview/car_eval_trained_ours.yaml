@@ -1,0 +1,16 @@
+#method: texnet
+#inherit_from: /srv/beegfs02/scratch/texture/data/single_view_3d_w_texture/3rdparty/texture_fields/configs/singleview/texfields/car.yaml
+#data:
+#  path_shapes: /srv/beegfs02/scratch/texture/data/single_view_3d_w_texture/3rdparty/texture_fields/shapenet/synthetic_cars_nospecular/
+#  dataset_imgs_type: image_folder
+#  img_size: 256
+#generation:
+#  batch_size: 1
+test:
+  #model_file: out/singleview/car_trained_27june/model_best.pt # PUT PATH TO TRAINED MODEL LATER! (27th june model being put)
+  vis_dir: 'out/singleview/new_data/car_trained_1July'
+  #dataset_split: 'test_vis' 
+  #with_occnet: False
+  #generation_mode: 'HD'
+
+## I USED THIS SCRIPT TO EVALUATE THE GENERATED DATA!!! (MESUT)

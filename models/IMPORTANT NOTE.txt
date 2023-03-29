@@ -1,0 +1,3 @@
+We are not able to submit our pretrained models because of the upload limit (250MB)
+Note that our pretrained models need more than 270 MB of space.
+In case you would like to have the pretrained model, we have provided a drive link in the Readme file.
